@@ -1,0 +1,9 @@
+
+body{margin:0;font-family:Arial;background:linear-gradient(180deg,#FFF8F0,#FFF0F5);overflow:hidden}
+.app{height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px}
+h1{font-size:4rem;z-index:1} h2,p{z-index:1}
+.aurora{position:absolute;width:420px;height:420px;border-radius:50%;background:#FFD6A5;filter:blur(90px);animation:pulse 4s infinite}
+.glass,.letter{z-index:1;background:rgba(255,255,255,.7);backdrop-filter:blur(8px);padding:16px;border-radius:18px;margin:10px;max-width:700px;width:90%}
+textarea{width:100%;height:120px}
+.quote{font-style:italic;max-width:700px}
+@keyframes pulse{50%{transform:scale(1.15)}}
